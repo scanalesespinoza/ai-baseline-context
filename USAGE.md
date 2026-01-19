@@ -2,6 +2,10 @@
 
 Quick guide to apply the context across projects.
 
+## Minimal start (ADev style)
+- When prompting an agent, say: “Use the ai-baseline-context guardrails and follow <workflow> for this task.” That alone aligns behavior.
+- Keep the flow light: only pull in the pieces you need (guardrails + one workflow + relevant knowledge).
+
 ## Navigation
 - Guardrails: `guardrails/` → constraints, sandbox notes, performance tips.
 - Workflows: `workflows/` → pick the playbook that matches your task.
